@@ -1,5 +1,5 @@
 body{
-    padding: 30px;
+    padding: 8%;
 }
 
 img{
@@ -13,8 +13,16 @@ img{
 
 h2{
     text-align: center;
-}
+    font-family: 'Sulphur Point', sans-serif;
 
+
+
+}
+.container{
+    border: 1px solid gray;
+    padding: 12px;
+    background: gainsboro;
+}
 .header-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -29,17 +37,18 @@ h2{
     grid-gap: 25px;
 }*/
 
-.container{
+.second-container{
     display: grid;
     grid-template-columns: 80px auto;
     grid-template-rows: auto auto auto auto;
     grid-gap: 25px;
 }
 
-.container input{
+.second-container input{
     height: 23px;
+    width: 30%;
 }
 
-.container label{
+.second-container label{
     font-size: 19px;
 }
