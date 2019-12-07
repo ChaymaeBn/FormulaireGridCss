@@ -36,6 +36,12 @@ body{
 .second-container label{
     font-size: 16px;
 }
+.second-container label::after{
+    content: " *";
+    color: #F00;
+    font-size: 90%;
+}
+
 .langue{
     display: grid;
     grid-template-columns: 136px 136px 136px;
